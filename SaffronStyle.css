@@ -16,6 +16,7 @@ body, html{
   border-collapse: collapse;
   background-image: url("Plant.jpg");
   text-align: center;
+  font-size: 90%;
   color: bisque;
 }
 .bottom {
@@ -28,5 +29,4 @@ body, html{
 .midsection {
   margin: 15px;
   padding: 15px;
-  
 }
