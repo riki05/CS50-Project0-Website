@@ -21,7 +21,7 @@ body, html{
   color: bisque;
 }
 
-@media (min-width: 600px) {
+@media (only min-width: 600px) {
   #heading0 h1::before{
       content: "An introduction to saffron plant (Crocus Sativus)";
   }  
@@ -39,7 +39,7 @@ body, html{
   }
 }
 
-@media (max-width: 599px) {
+@media (only max-width: 599px) {
   #heading0 h1::before{
       content: "Introduction";
   }
