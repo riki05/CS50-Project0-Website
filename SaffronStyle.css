@@ -21,19 +21,27 @@ body, html{
   color: bisque;
 }
 
-@media (min-width: 501px) {
+@media (min-width: 600px) {
   #heading0 h1::before{
       content: "An introduction to saffron plant (Crocus Sativus)";
   }  
+}
+@media (min-width: 600px){
   #heading1 h1::before{
     content: "What is Crocus sativus?";
   }  
+}
+@media (min-width: 600px){
   #heading2 h1::before{
     content: "Uses of Saffron";
   } 
+}
+@media (min-width: 600px){
   #heading3 h1::before{
     content: "Production and Trade";
   } 
+}
+@media (min-width: 600px){
   #heading4 h1::before{
     content: "Saffron Diseases and disease management";
   }
@@ -43,16 +51,24 @@ body, html{
   #heading0 h1::before{
       content: "Introduction";
   }
+}
+@media (max-width: 500px) {
   #heading1 h1::before{
     content: "Crocus sativus";
     font-style: italic;
   }
+}
+@media (max-width: 500px) {
   #heading2 h1::before{
     content: "Uses";
   }
+}
+@media (max-width: 500px) {
   #heading3 h1::before{
     content: "Production";
   }
+}
+@media (max-width: 500px) {
   #heading4 h1::before{
     content: "Saffron Diseases";
   }
