@@ -1,0 +1,56 @@
+
+$minWidth: 501px;
+$maxWidth: 500px;
+
+@media (min-width: $minWidth) {
+    #heading0 h1::before{
+        content: "An introduction to saffron plant (Crocus Sativus)";
+    }  
+}
+@media (min-width: $minWidth){
+    #heading1 h1::before{
+      content: "What is Crocus sativus?";
+    }  
+}
+@media (min-width: $minWidth){
+    #heading2 h1::before{
+      content: "Uses of Saffron";
+    } 
+}
+@media (min-width: $minWidth){
+    #heading3 h1::before{
+      content: "Production and Trade";
+    } 
+}
+@media (min-width: $minWidth){
+    #heading4 h1::before{
+      content: "Saffron Diseases and disease management";
+    }
+}
+@media (max-width: $maxWidth) {
+    #heading0 h1::before{
+        content: "Introduction";
+    }
+}
+@media (max-width: $maxWidth) {
+    #heading1 h1::before{
+      content: "Crocus sativus";
+      font-style: italic;
+    }
+}
+@media (max-width: $maxWidth) {
+    #heading2 h1::before{
+      content: "Uses";
+    }
+}
+@media (max-width: $maxWidth) {
+    #heading3 h1::before{
+      content: "Production";
+    }
+}
+@media (max-width: $maxWidth) {
+    #heading4 h1::before{
+      content: "Saffron Diseases";
+    }
+}
+  
